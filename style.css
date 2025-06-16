@@ -37,4 +37,6 @@ a, .btn
 nav, .nav-links
 {
     display: flex;
+    justify-content: space-around;
+    height: 17vh;
 }
