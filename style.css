@@ -121,3 +121,55 @@ a:hover
   transition: all 0.3 ease-in-out;
 }
 
+.menu-links a
+{
+  display: block;
+  padding: 10px;
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links li
+{
+  list-style: none;
+}
+
+.menu-links.open 
+{
+  max-height: 300px; /* Adjust as needed */
+}
+
+.stack-item.open span:first-child 
+{
+  transform: rotate(45deg) translate(10px, 5px);
+}
+
+.stack-item.open span:nth-child(2)
+{
+  opacity: 0;
+}
+
+.stack-item.open span:last-child
+{
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
+
+.stack-item span:first-child
+{
+  transform: none;
+}
+
+.stack-item span:first-child
+{
+  opacity: 1;
+}
+
+.stack-item span:first-child
+{
+  transform: none;
+}
+
