@@ -178,8 +178,7 @@ a:hover
 
 section
 {
-  padding-top: 4vh;
-  height: 80vh;
+  height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -203,8 +202,15 @@ section
 }
 
 /* Also, center all section titles by default */
-#about {
-    text-align: left;
+#about
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  align-items: center;
+  padding-top: 10rem; /* Push it down from the top */
+  box-sizing: border-box;
 }
 
 /* PROFILE SECTION */
@@ -215,6 +221,7 @@ section
   justify-content: center; 
   gap: 5rem;               
   align-items: center;
+  height: calc(100vh - 17vh); /* ADD THIS LINE */
 }
 
 .section__pic-container
@@ -325,6 +332,69 @@ section
 .btn-container
 {
   gap: 1rem;
+}
+
+
+/* ABOUT SECTION */
+
+#about
+{
+  position: relative;
+}
+
+.about-containers
+{
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container
+{
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container
+{
+  display: flex;
+}
+
+.about-pic
+{
+  border-radius: 2rem;
+}
+
+.arrow
+{
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container
+{
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53,53,53) 0.1rem solid;
+  border-color: rgb(163,163,163);
+  text-align: center;
+}
+
+.section-container
+{
+  gap: 4rem;
+  height: 0%;
+}
+
+.section__pic-container
+{
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
 
 
