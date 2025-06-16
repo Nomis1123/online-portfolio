@@ -51,5 +51,53 @@ nav
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
-  
 }
+
+a
+{
+  text-decoration: none;
+  text-decoration-color:white;
+  color: black;
+}
+
+a:hover
+{
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 0.7rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo 
+{
+  font-size: 2rem;
+}
+
+.logo:hover 
+{
+  cursor: default
+}
+
+/* STACK NAV */
+
+#stack-nav 
+{
+  display: none;
+}
+
+.stack-menu 
+{
+  position: relative;
+  display: inline-block;
+}
+
+.stack-item
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 34px;
+  cursor: pointer;
+}
+
