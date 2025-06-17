@@ -139,7 +139,7 @@ a:hover
 
 .menu-links.open 
 {
-  max-height: 300px; /* Adjust as needed */
+  max-height: 300px; 
 }
 
 .stack-item.open span:first-child 
@@ -192,24 +192,24 @@ section
 .title-sub {
   font-size: 3rem;
   text-align: center;
-  color: black; /* Or your preferred color */
+  color: black; 
 }
 
 .section__text__p1-sub {
   text-align: center;
-  font-size: 1.25rem; /* A more reasonable size for a subtitle */
+  font-size: 1.25rem; 
   color: rgb(85, 85, 85);
 }
 
-/* Also, center all section titles by default */
+
 #about
 {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align content to the top */
+  justify-content: flex-start; 
   align-items: center;
-  padding-top: 10rem; /* Push it down from the top */
+  padding-top: 10rem; 
   box-sizing: border-box;
 }
 
@@ -221,7 +221,7 @@ section
   justify-content: center; 
   gap: 5rem;               
   align-items: center;
-  height: calc(100vh - 17vh); /* ADD THIS LINE */
+  height: calc(100vh - 17vh); 
 }
 
 .section__pic-container
