@@ -384,6 +384,11 @@ section
   text-align: center;
 }
 
+.details-container :hover
+{
+  cursor: default;
+}
+
 .section-container
 {
   gap: 4rem;
