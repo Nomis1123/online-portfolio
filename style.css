@@ -376,8 +376,8 @@ section
 .details-container
 {
   padding: 1.5rem;
-  flex: 1;
   background: white;
+  flex: 1;
   border-radius: 2rem;
   border: rgb(53,53,53) 0.1rem solid;
   border-color: rgb(163,163,163);
@@ -417,7 +417,7 @@ section
   margin-bottom: 2rem;
 }
 
-.experience-detials-container
+.experience-details-container
 {
   display: flex;
   justify-content: center;
@@ -451,5 +451,34 @@ article.icon
 #projects
 {
   position: relative;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
 }
 
+.color-container
+{
+  border-color: rgb(163,163,163);
+  background: rgb(255, 255, 255);
+}
+
+.project-pic
+{
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title
+{
+  margin: 1rem;
+  color: black;
+
+}
+
+.project-btn
+{
+  color: black;
+  border-color: rgb(163,163,163);
+}
